@@ -1,14 +1,14 @@
-
-# Create an inventory file with group called foo and 1 hosts in it called bar.foo.com
+#
+#
+##    TASK:
+##     Do xyz........
 #
 
 #
 
 ###
-### Answer:
+### ANSWER:
 ###
 #
-[foo]
-bar.foo.com
-
+####    answer_goes_here
 
