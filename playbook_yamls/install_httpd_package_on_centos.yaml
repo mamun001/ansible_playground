@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+
+  tasks:
+  - name: Make sure httpd package is installed
+    yum:
+      name: httpd
+      state: present
+
+
