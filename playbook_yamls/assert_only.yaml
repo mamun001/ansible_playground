@@ -1,0 +1,11 @@
+---
+- hosts: jumpgroup
+
+  vars: 
+    foo: bar
+
+  tasks:
+    - name: sanity check supplied vars 
+      assert: 
+        that:
+          - foo == 'bar'

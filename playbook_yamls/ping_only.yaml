@@ -1,0 +1,5 @@
+---
+- hosts: jumpgroup
+  tasks:
+    - name: ping_task
+      ping:
