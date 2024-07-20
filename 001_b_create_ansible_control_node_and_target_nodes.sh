@@ -8,6 +8,11 @@ gcloud compute instances create ansible-control-node \
     --image-family=ubuntu-2004-lts \
     --image-project=ubuntu-os-cloud
 
+
+# The following 2 wroks, but we don't need it, because we can simply use localhost as a target, as well
+
+exit 0
+
 gcloud compute instances create ansible-target-node-1 \
     --project=youtube-demo-3-367300 \
     --zone=us-west1-a \
